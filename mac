@@ -42,5 +42,9 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
+echo "Installing dotfiles..."
+cd ~/ && git clone --recursive git@github.com:ryankee/dotfiles.git
+cd ~/dotfiles && ./install.sh link
+
 bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
 bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/heroku)
