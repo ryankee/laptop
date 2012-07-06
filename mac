@@ -20,6 +20,9 @@ export PATH='/usr/local/bin:$PATH'" >> ~/.zshrc
 echo "Tapping homebrew dupes repo..."
   brew tap homebrew/dupes
 
+echo "Installing mercurial..."
+  brew install mercurial
+
 echo "Installing vim..."
   brew install homebrew/dupes/vim
 
