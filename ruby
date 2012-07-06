@@ -16,3 +16,6 @@ echo "Installing the pg gem to talk to Postgres databases ..."
 
 echo "Installing the foreman gem for serving your Rails apps in development mode ..."
   gem install foreman --no-rdoc --no-ri
+
+echo "Installing the pry gem to fancy up irb ..."
+  gem install pry --no-rdoc --no-ri
