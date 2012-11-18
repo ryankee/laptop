@@ -56,4 +56,3 @@ cd ~/ && git clone --recursive git@github.com:ryankee/dotfiles.git
 cd ~/dotfiles && ./install.sh link
 
 bash < <(curl -s https://raw.github.com/ryankee/laptop/master/ruby)
-bash < <(curl -s https://raw.github.com/ryankee/laptop/master/heroku)
